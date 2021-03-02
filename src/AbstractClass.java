@@ -2,6 +2,11 @@ abstract class CallingClass {
     abstract void getValue(int value);
 
     //abstract method cannot have body
+    /*abstract void getValues(int value){
+        System.out.println("abstract method cannot have body");
+    }*/
+
+    //non-abstract method can have body
     void abstractMethod() {
         System.out.println("abstract class can be declared and defined");
     }
